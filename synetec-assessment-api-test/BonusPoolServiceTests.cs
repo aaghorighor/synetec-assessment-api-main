@@ -25,7 +25,7 @@ namespace SynetecAssessmentApi.Test
         }
 
         [Test]
-        public async Task ShouldReturnExpectedAmount()
+        public async Task ShouldReturnExpectedAmountWhenMatchisFound()
         {
             var expected = 40;
 
@@ -50,7 +50,7 @@ namespace SynetecAssessmentApi.Test
         }
 
         [Test]
-        public async Task ShouldNotReturnZeroAmountWhenThereisNoMatchFound()
+        public async Task ShouldReturnZeroAmountWhenThereisNoMatchFound()
         {
             var expected = 0;
 
